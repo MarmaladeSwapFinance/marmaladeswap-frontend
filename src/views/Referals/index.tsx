@@ -65,7 +65,7 @@ const Referals: React.FC = () => {
             placeholder={t('Search name or paste address')}
             scale="lg"
             autoComplete="off"
-            value={`https://marmaladetest.surge.sh/?ref=${account}`}
+            value={`https://marmaladeswap.finance/?ref=${account}`}
             ref={inputRef as RefObject<HTMLInputElement>}
           />
         </Row>
@@ -73,7 +73,7 @@ const Referals: React.FC = () => {
         <Row>
           <CopyButton
             onClick={() => {
-              copyToClipboard(`https://marmaladetest.surge.sh/?ref=${account}`)
+              copyToClipboard(`https://marmaladeswap.finance/?ref=${account}`)
             }}
           />
         </Row>
