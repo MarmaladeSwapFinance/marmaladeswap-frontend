@@ -180,6 +180,7 @@ export function useTrackedTokenPairs(): [Token, Token][] {
               (BASES_TO_TRACK_LIQUIDITY_FOR[chainId] ?? [])
                 // to construct pairs of the given token with each base
                 .map((base) => {
+                  // console.log('genpairs', base, token)
                   if (base.address === token.address) {
                     return null
                   }

@@ -51,10 +51,10 @@ export const BUSD: { [chainId: number]: Token } = {
   ),
 }
 
-export const WBNB = new Token(ChainId.TESTNET, '0xae13d989dac2f0debff460ac112a837c89baa7cd', 18, 'WBNB', 'Wrapped BNB')
-export const DAI = new Token(ChainId.TESTNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')
-export const USDT = new Token(ChainId.TESTNET, '0x55d398326f99059fF775485246999027B3197955', 18, 'USDT', 'Tether USD')
-export const BTCB = new Token(ChainId.TESTNET, '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 18, 'BTCB', 'Binance BTC')
+export const WBNB = new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB')
+export const DAI = new Token(ChainId.MAINNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')
+export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059fF775485246999027B3197955', 18, 'USDT', 'Tether USD')
+export const BTCB = new Token(ChainId.MAINNET, '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 18, 'BTCB', 'Binance BTC')
 export const UST = new Token(
   ChainId.MAINNET,
   '0x23396cF899Ca06c4472205fC903bDB4de249D6fC',
@@ -63,8 +63,8 @@ export const UST = new Token(
   'Wrapped UST Token',
 )
 export const ETH = new Token(
-  ChainId.TESTNET,
-  '0x8babbb98678facc7342735486c851abd7a0d17ca',
+  ChainId.MAINNET,
+  '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
   18,
   'ETH',
   'Binance-Peg Ethereum Token',
