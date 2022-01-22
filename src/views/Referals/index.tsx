@@ -8,6 +8,7 @@ import { AutoColumn } from 'components/Layout/Column'
 import Row from 'components/Layout/Row'
 import styled from 'styled-components'
 import { getReferalsContract } from 'utils/contractHelpers'
+import { Label } from 'views/Voting/CreateProposal/styles'
 import CopyButton from './components/CopyButton'
 
 const CopiedLabel = styled.div`
@@ -21,6 +22,9 @@ const CopiedLabel = styled.div`
   ${({ theme }) => theme.mediaQueries.sm} {
     flex: 1;
   }
+`
+const Block = styled.div`
+  margin-bottom: 16px;
 `
 
 const Referals: React.FC = () => {
@@ -94,7 +98,13 @@ const Referals: React.FC = () => {
   }
 
   const RefNoAccount = () => {
-    return <>Please connect your wallet first.</>
+    return (
+      <Row>
+        <Text fontSize="12px" bold color="textSubtle" textTransform="uppercase">
+          {t('Please connect your wallet first')}
+        </Text>
+      </Row>
+    )
   }
 
   const ReferalBlock = () => {
