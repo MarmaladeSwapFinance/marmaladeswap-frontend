@@ -5,7 +5,7 @@ export const DEFAULT_META: PageMeta = {
   title: 'MarmaladeSwap',
   description:
     'The most popular AMM on BSC by user count! Earn MARM through yield farming or win it in the Lottery, then stake it in Marmalade Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by MarmaladeSwap), NFTs, and more, on a platform you can trust.',
-  image: 'https://marmaladeswap.finance/images/hero.jpg',
+  image: 'https://marmaladeswap.finance/images/banner.jpg',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
