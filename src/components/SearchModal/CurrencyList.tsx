@@ -55,6 +55,10 @@ const MenuItem = styled(RowBetween)<{ disabled: boolean; selected: boolean }>`
   opacity: ${({ disabled, selected }) => (disabled || selected ? 0.5 : 1)};
 `
 
+function removeSignFromMarm(tokenName: string) {
+  return tokenName === '!MARM' ? 'MARM' : tokenName
+}
+
 function CurrencyRow({
   currency,
   onSelect,
@@ -86,7 +90,7 @@ function CurrencyRow({
     >
       <CurrencyLogo currency={currency} size="24px" />
       <Column>
-        <Text bold>{currency.symbol}</Text>
+        <Text bold>{removeSignFromMarm(currency.symbol)}</Text>
         <Text color="textSubtle" small ellipsis maxWidth="200px">
           {!isOnSelectedList && customAdded && 'Added by user •'} {currency.name}
         </Text>

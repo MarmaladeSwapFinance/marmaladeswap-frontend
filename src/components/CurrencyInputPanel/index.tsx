@@ -58,6 +58,11 @@ interface CurrencyInputPanelProps {
   id: string
   showCommonBases?: boolean
 }
+
+function removeSignFromMarm(tokenName: string) {
+  return tokenName === '!MARM' ? 'MARM' : tokenName
+}
+
 export default function CurrencyInputPanel({
   value,
   onUserInput,
@@ -147,7 +152,7 @@ export default function CurrencyInputPanel({
                         currency.symbol.length - 5,
                         currency.symbol.length,
                       )}`
-                    : currency?.symbol) || t('Select a currency')}
+                    : removeSignFromMarm(currency?.symbol)) || t('Select a currency')}
                 </Text>
               )}
               {!disableCurrencySelect && <ChevronDownIcon />}
