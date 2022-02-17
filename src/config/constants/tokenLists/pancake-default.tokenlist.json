@@ -24,7 +24,7 @@
       "address": "0x1174ee668cddbb810ed576edcd7114513ea655f6",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://marmaladeswap.surge.sh/logo.png"
+      "logoURI": "https://marmaladeswap.finance/logo-c.png"
     },
     {
       "name": "MUSD Token",
@@ -32,7 +32,7 @@
       "address": "0x8554fccf27c3af98542657078cfae2f1c3e53bdf",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://marmaladeswap.surge.sh/musd.png"
+      "logoURI": "https://marmaladeswap.finance/musd-c.png"
     },
     {
       "name": "MarmaladeSwap Finance",
@@ -40,7 +40,7 @@
       "address": "0x1174ee668cddbb810ed576edcd7114513ea655f6",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://marmaladeswap.surge.sh/logo.png"
+      "logoURI": "https://marmaladeswap.finance/logo-c.png"
     },
     {
       "name": "BUSD Token",
