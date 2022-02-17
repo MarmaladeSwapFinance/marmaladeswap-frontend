@@ -16,7 +16,7 @@ interface TokenPairImageProps extends Omit<UIKitTokenPairImageProps, 'primarySrc
 
 const getImageUrlFromToken = (token: Token) => {
   const address = getAddress(token.symbol === 'BNB' ? tokens.wbnb.address : token.address)
-  if (token.symbol === 'MARM') return 'https://marmaladeswap.finance/logo-c.png'
+  if (token.symbol === 'MARM') return 'https://marmaladeswap.finance/images/logo-c.png'
   return `/images/tokens/${address}.png`
 }
 
