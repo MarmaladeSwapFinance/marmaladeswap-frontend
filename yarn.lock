@@ -2527,10 +2527,10 @@
   resolved "https://registry.npmjs.org/@ledgerhq/logs/-/logs-5.50.0.tgz"
   integrity sha512-swKHYCOZUGyVt4ge0u8a7AwNcA//h4nx5wIi0sruGye1IJ5Cva0GyK9L2/WdX+kWVTKp92ZiEo1df31lrWGPgA==
 
-"@marmaladeswap/uikit@^0.41.1":
-  version "0.41.1"
-  resolved "https://registry.yarnpkg.com/@marmaladeswap/uikit/-/uikit-0.41.1.tgz#77567ba95b9198e8a5274e098375e26c07f90741"
-  integrity sha512-ywxfR7WYk9t5h/jl3UmUuBTkuitMFkui8S8kdoAY/MQGYP7f/zVX+Dyq012soUNzSt7N2m8k/WBZEzG5IaufjA==
+"@marmaladeswap/uikit@^0.41.3":
+  version "0.41.3"
+  resolved "https://registry.yarnpkg.com/@marmaladeswap/uikit/-/uikit-0.41.3.tgz#501a90d814aaa519b0d841b4cd7a7a5947caa05b"
+  integrity sha512-vq5Ia/u4sS0ZdzeOVOC6NoKM1ALBFmtKfSC4rJG1E7m0F2KshMj6bT2Lu2lBSS7j1AJ8yJVQdhRL0T4rrI/0TA==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"
